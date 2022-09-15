@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js | pino-colada",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "pino-colada": "^2.2.2",
+    "pino-pretty": "^9.1.0"
+  }
+}
